@@ -1,0 +1,45 @@
+.vrvideo{
+    margin-left: 30px;
+    align-items: center;
+
+}
+#info {
+	position: absolute;
+	top: 4%;
+	width: 40%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	border-radius: 8px;
+
+}
+.end{
+	position: absolute;
+	top: 5%;
+	right:1%;
+	width: 100%;
+	text-align: end;
+	z-index: 100;
+	display:block;
+}
+
+.hide{
+	display: none;
+}
+.infotitle:hover +.hide{
+	display: block;
+}
+
+#three{
+	width: 100vw;
+	border-radius: 4px;
+}
+.control{
+	position: absolute;
+	top: 67%;
+	right:38%;
+	width: 50%;
+	text-align: start;
+	z-index: 100;
+	display:block;
+}

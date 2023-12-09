@@ -1,16 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Home from './components/Home'
+import Collection from './components/collection/Collection';
+import Explore from './components/explore/Explore';
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Bibek Timilsina
-      </p>
-      </header>
+      <div className='h-screen'>
+        <Home />
+      </div>
+      <div className='h-full mt-0 ' id='vrapp'>
+        <Collection />
+      </div>
+      
     </div>
+
   );
 }
 

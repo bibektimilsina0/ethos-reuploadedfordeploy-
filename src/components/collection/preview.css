@@ -1,0 +1,23 @@
+.rendercol{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    /* border: 3px solid #73AD21; */
+    /* overflow: hidden; */
+}
+
+.button{
+
+    position: absolute;
+    top:50%;
+    right:50%;
+    text-align: center;
+	z-index: 100;
+	display:block;
+}
+canvas#rendercol1:empty {
+    display: none;
+ }
+canvas#rendercol2:empty {
+    display: none;
+ }
