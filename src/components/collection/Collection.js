@@ -6,7 +6,7 @@ import image from '../../image/adventure.jpeg'
 function Collection() {
     const [source, setSource] = useState([])
     useEffect(() => {
-        fetch('https://dream-backers-crowdfunding-np.cyclic.cloud/api/safar-api')
+        fetch('https://software-engineering-project-ja6n.onrender.com/api/safar-api')
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
